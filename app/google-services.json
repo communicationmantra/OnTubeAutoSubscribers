@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "181678611242",
+    "firebase_url": "https://autosubscribers2019.firebaseio.com",
+    "project_id": "autosubscribers2019",
+    "storage_bucket": "autosubscribers2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181678611242:android:827ae05ecd765131",
+        "android_client_info": {
+          "package_name": "com.you_tube.auto_subscribers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181678611242-vtvt25peijtdd7ok6oqls7h0p9uaor9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.you_tube.auto_subscribers",
+            "certificate_hash": "9ccd8d28a8aadd43595e0e4f486dc95deb6a91bd"
+          }
+        },
+        {
+          "client_id": "181678611242-apj457fpluen3cdg25i38ehc6p0gnksc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAsug-vfKeTBpJdQAgLbSqpQDHP7xLKA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181678611242-apj457fpluen3cdg25i38ehc6p0gnksc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

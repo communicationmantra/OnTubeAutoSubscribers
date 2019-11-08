@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cardview_bg"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="100dp"
+                    android:background="@color/colorPrimary"></View>
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="7dp"
+                    android:src="@drawable/logo512x512without" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <com.you_tube.auto_subscribers.ExtraUtils.TextView_Lato
+                        android:id="@+id/card_itemname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Data analysing with team"
+                        android:textColor="@color/colorGray"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                    <com.you_tube.auto_subscribers.ExtraUtils.TextView_Lato
+                        android:id="@+id/card_itemname2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="100 Points"
+                        android:textColor="@color/colorGray"
+                        android:textSize="24dp"
+                        android:textStyle="bold"/>
+
+                    <com.you_tube.auto_subscribers.ExtraUtils.TextView_Lato
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_gravity="bottom|right|end"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/roun_rect_youtube"
+                        android:text="Subscribe"
+                        android:textColor="@color/colorBackroundWhite"
+                        android:textSize="14dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corner"
+    android:id="@+id/custom_toast_layout"
+    android:gravity="center">
+        <TextView
+            android:id="@+id/custom_toast_message1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="YOUR PIN"
+            android:textColor="@color/colorGray"
+            android:gravity="center"/>
+
+
+
+        <TextView
+            android:id="@+id/custom_toast_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+
+</LinearLayout>

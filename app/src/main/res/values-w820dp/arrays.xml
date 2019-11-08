@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="category">
+        <item>Advertisement</item>
+        <item>Books &amp; Reference</item>
+        <item>Bitcoin Trading</item>
+        <item>Developers</item>
+        <item>Education</item>
+        <item>Entertainment</item>
+        <item>Fan Club</item>
+        <item>Food &amp; Drink</item>
+        <item>Friendship</item>
+        <item>Funny &amp; Jocks</item>
+        <item>Games</item>
+        <item>Hacking</item>
+        <item>Health &amp; Fitness</item>
+        <item>International Groups</item>
+        <item>Jobs</item>
+        <item>Lifestyle</item>
+        <item>Love &amp; Dating</item>
+        <item>Medical</item>
+        <item>Movies &amp; Videos</item>
+        <item>Naughty</item>
+        <item>Online Business</item>
+        <item>Photography</item>
+        <item>Politics</item>
+        <item>Science &amp; Tech</item>
+        <item>Shopping</item>
+        <item>Social</item>
+        <item>Sports</item>
+        <item>Stock Market</item>
+        <item>Study Groups</item>
+        <item>Tips &amp; Tricks</item>
+        <item>Travel</item>
+        <item>YouTube Promotion</item>
+        <item>Others</item>
+    </array>
+</resources>
